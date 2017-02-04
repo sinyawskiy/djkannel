@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿**.svn
 **.idea
 **~
@@ -13,3 +14,9 @@ local_settings.py
 local_settings.xml
 media/logos*
 media/afupload/*
+=======
+*.log
+*.pot
+*.pyc
+local_settings.py
+>>>>>>> c29ad9b430232b68988d3deec4a0a818482d770f
