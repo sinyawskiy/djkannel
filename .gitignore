@@ -1,0 +1,15 @@
+﻿**.svn
+**.idea
+**~
+**.pyc
+**.komodoproject
+**.settings
+logs/**
+**.log
+media/cache**
+media/attaches*
+*.ids
+local_settings.py
+local_settings.xml
+media/logos*
+media/afupload/*

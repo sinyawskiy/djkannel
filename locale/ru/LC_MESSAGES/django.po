@@ -1,0 +1,264 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-21 13:01+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+
+#: .\dashboard.py:23 .\menu.py:54
+msgid "Applications"
+msgstr "Приложения"
+
+#: .\dashboard.py:75
+msgid "Recent Actions"
+msgstr "Последние действия"
+
+#: .\menu.py:17 .\templates\admin\change_form.html.py:31
+msgid "History"
+msgstr "История"
+
+#: .\menu.py:51
+msgid "Dashboard"
+msgstr ""
+
+#: .\menu.py:58
+msgid "Administration"
+msgstr "Администрирование"
+
+#: .\annoying\breadcrumbs.py:37
+#, python-format
+msgid "Add %s"
+msgstr "Добавить %s"
+
+#: .\annoying\breadcrumbs.py:39
+#, fuzzy, python-format
+msgid "Change %s"
+msgstr "Измененить %s"
+
+#: .\annoying\breadcrumbs.py:42
+#, python-format
+msgid "Select %s"
+msgstr "Выбрать %s"
+
+#: .\annoying\breadcrumbs.py:44
+#, python-format
+msgid "Select %s to change"
+msgstr "Выбрать %s для изменения"
+
+#: .\annoying\breadcrumbs.py:70
+#, python-format
+msgid "%s administration"
+msgstr "администрирование %s"
+
+#: .\annoying\widgets.py:304
+msgid "Add Another"
+msgstr "Добавить еще"
+
+#: .\recipients\__init__.py:4
+msgid "Recipients"
+msgstr "Справочник получателей"
+
+#: .\sms_storage\__init__.py:4
+msgid "Sms_Storage"
+msgstr "СМС хранилище"
+
+msgid "Gateway"
+msgstr "СМС шлюз"
+
+#: .\templates\admin\__delete_selected_confirmation.html.py:6
+#: .\templates\admin\app_index.html.py:9 .\templates\admin\base.html.py:46
+#: .\templates\admin\change_form.html.py:19
+#: .\templates\admin\change_list.html.py:43
+#: .\templates\admin\delete_confirmation.html.py:6
+msgid "Home"
+msgstr "Главная"
+
+#: .\templates\admin\__delete_selected_confirmation.html.py:9
+msgid "Delete multiple objects"
+msgstr "Удалить несколько объектов"
+
+#: .\templates\admin\__delete_selected_confirmation.html.py:16
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+
+#: .\templates\admin\__delete_selected_confirmation.html.py:24
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+
+#: .\templates\admin\__delete_selected_confirmation.html.py:32
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+
+#: .\templates\admin\__delete_selected_confirmation.html.py:43
+#: .\templates\admin\delete_confirmation.html.py:38
+msgid "Yes, I'm sure"
+msgstr "Да, я уверен"
+
+#: .\templates\admin\actions.html.py:4
+msgid "Run the selected action"
+msgstr "Выполнить выбранное действие"
+
+#: .\templates\admin\actions.html.py:4
+msgid "Go"
+msgstr "Вперед"
+
+#: .\templates\admin\actions.html.py:11
+msgid "Click here to select the objects across all pages"
+msgstr "Нажмите для выбора объектов на всех страницах"
+
+#: .\templates\admin\actions.html.py:11
+#, python-format
+msgid "Select all %(total_count)s %(module_name)s"
+msgstr "Выбрать все %(total_count)s %(module_name)s"
+
+#: .\templates\admin\actions.html.py:13
+msgid "Clear selection"
+msgstr "Отменить выбор"
+
+#: .\templates\admin\base.html.py:29
+msgid "Welcome,"
+msgstr "Добро пожаловать!"
+
+#: .\templates\admin\base.html.py:34
+msgid "Documentation"
+msgstr "Документация"
+
+#: .\templates\admin\base.html.py:36
+msgid "Change password"
+msgstr "Изменение пароля"
+
+#: .\templates\admin\base.html.py:37
+msgid "Log out"
+msgstr "Выход"
+
+#: .\templates\admin\change_form.html.py:22
+#: .\templates\admin_tools\dashboard\modules\app_list.html.py:13
+msgid "Add"
+msgstr "Добавить"
+
+#: .\templates\admin\change_form.html.py:32
+#: .\templates\admin\edit_inline\stacked.html.py:9
+#: .\templates\admin\edit_inline\tabular.html.py:28
+msgid "View on site"
+msgstr "Просматривать"
+
+#: .\templates\admin\change_form.html.py:43
+#: .\templates\admin\change_list.html.py:74
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] "Пожалуйста исправьте ошибку ниже"
+msgstr[1] "Пожалуйста исправьте ошибки ниже"
+msgstr[2] "Пожалуйста исправьте ошибки ниже"
+
+#: .\templates\admin\change_list.html.py:65
+#, fuzzy, python-format
+msgid "Add %(name)s"
+msgstr "Добавить %(verbose_name)s"
+
+#: .\templates\admin\change_list.html.py:85
+msgid "Filter"
+msgstr "Фильтр"
+
+#: .\templates\admin\delete_confirmation.html.py:10
+msgid "Delete"
+msgstr "Удалить"
+
+#: .\templates\admin\delete_confirmation.html.py:17
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+
+#: .\templates\admin\delete_confirmation.html.py:25
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
+msgstr ""
+
+#: .\templates\admin\delete_confirmation.html.py:33
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+
+#: .\templates\admin\search_form.html.py:7
+msgid "Search"
+msgstr "Поиск"
+
+#: .\templates\admin\search_form.html.py:9
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] "%(counter)s в результате"
+msgstr[1] "%(counter)s в результате"
+msgstr[2] "%(counter)s в результате"
+
+#: .\templates\admin\search_form.html.py:9
+#, python-format
+msgid "%(full_result_count)s total"
+msgstr "Всего %(full_result_count)s"
+
+#: .\templates\admin\edit_inline\stacked.html.py:67
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr "Добавить %(verbose_name)s"
+
+#: .\templates\admin\edit_inline\stacked.html.py:70
+#: .\templates\admin\edit_inline\tabular.html.py:116
+msgid "Remove"
+msgstr "Удалить"
+
+#: .\templates\admin\edit_inline\tabular.html.py:15
+msgid "Delete?"
+msgstr "Удалить?"
+
+#: .\templates\admin\edit_inline\tabular.html.py:113
+#, python-format
+msgid "Add more %(verbose_name)s"
+msgstr "Добавить %(verbose_name)s"
+
+#: .\templates\admin_tools\dashboard\modules\app_list.html.py:14
+msgid "Change"
+msgstr "Изменить"
+
+msgid "This value must be a long integer."
+msgstr "Эта величина должна быть long integer."
+
+msgid "Successfully deleted %(count)d %(items)s."
+msgstr "Успешно удалено %(count)d %(items)s "
+
+msgid "Cannot delete %(name)s"
+msgstr "Не могу удалить %(name)s"
+
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+msgid "Auth"
+msgstr "Аутентификация"
